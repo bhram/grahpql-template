@@ -4,7 +4,7 @@
 $ yarn add grahpql-template
 ```
 
-``
+```
 import GTemplate from 'graphql-template';
 
 const templateString = GTemplate({
@@ -15,14 +15,5 @@ const templateString = GTemplate({
 
 const DELETE_USER = gql(templateString);
 
-``
+```
 
-## instade of 
-
-``
-const DELETE_USER = gql`
-    mutation deleteUser($id:Int!){
-      deleteUser(id:$id )
-    }
- `;
-``
