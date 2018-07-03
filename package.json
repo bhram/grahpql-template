@@ -1,0 +1,11 @@
+{
+  "name": "graphql-template",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"tsc index.ts"
+  },
+  "author": "bhram",
+  "license": "ISC"
+}
